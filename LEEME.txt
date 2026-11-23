@@ -1,0 +1,19 @@
+DOLCE PIACERE POS MOBILE 1.0
+
+INSTALACIÓN EN TABLET ANDROID
+1. Publica los archivos de esta carpeta en un sitio HTTPS (por ejemplo, GitHub Pages o Netlify).
+2. Abre la dirección HTTPS en Chrome de tu tablet, con internet por primera vez.
+3. En el menú de Chrome, selecciona "Instalar aplicación" o "Agregar a pantalla principal".
+4. Abre la aplicación y comprueba que funciona sin internet tras cargarla completamente una vez.
+5. En Caja, registra el fondo inicial. En Venta, pulsa productos, selecciona método y cobra.
+6. Descarga respaldos JSON frecuentemente en Configuración. También puedes exportar ventas CSV.
+
+LIMITACIONES
+- Los datos se guardan en IndexedDB local del navegador, NO en una nube.
+- No hay sincronización entre dispositivos. No usar el mismo respaldo en varios dispositivos para cobrar en paralelo.
+- Si se borran datos del navegador o la aplicación, se pueden perder las ventas.
+- Impresión usa el diálogo del navegador; depende de la compatibilidad con tu impresora Android.
+- No es una factura fiscal ni CFDI.
+- No abras index.html como archivo local (file://) para el uso final: se requiere HTTPS para la instalación y el modo sin conexión.
+- La primera carga requiere internet; después prueba el modo avión antes del evento.
+- La aplicación no contiene aún autenticación, cancelaciones ni devoluciones.
